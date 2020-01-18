@@ -1,0 +1,107 @@
+/*Limpar as formatações padrão*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/**********************Conteudo***********************/
+body{
+	background: linear-gradient(50deg, #B18904,black);
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.texto{
+	text-align: center;
+	margin: 10px;
+	display: table;
+	width: 100%;
+	color: white;
+}
+
+/* -- Barra de navegção --*/
+.img{
+	height: 50px;
+	width: 132px;
+}
+
+.lado-direito{
+	margin-left: auto;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a, .nav a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: #B18904;
+	background: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+/********************Rodapé************************/
+footer{
+	background: #000;
+	padding: 50px 0 1px 0;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+	padding: 0px 5px;
+}
+
+.footer-center{
+	text-align: center;
+	color: #919496;
+	font-size: 12px;
+	padding-top: 10px;
+
+}
+
+#rodape h4{
+	color:#919496;
+	font-size: 12px;
+	text-transform: uppercase; 
+}
+
+/******************Formatação do site******************/
+p{
+	color: white;
+}
+
+th{
+	color: white;
+}
+
+td{
+	color: white;
+}
+
+/*Links não visitados*/
+a:link{
+	color: white
+}
+
+/*Links visitados*/
+a:visted{
+	color: blue
+}
+
+/*Links hover*/
+a:hover {
+	color: blue
+}
+
+/*Links actived*/
+a:active {
+	color: black
+}

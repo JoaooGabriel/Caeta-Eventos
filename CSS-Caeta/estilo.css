@@ -47,13 +47,6 @@ nav.navbar-transparente{
 	padding: 5px 15px;
 }
 
-/********************Rodapé************************/
-footer{
-	background: #000;
-	padding: 50px 0 1px 0;
-	position: relative;
-}
-
 .item-rede-social{
 	float: right;
 	padding: 0px 5px;
@@ -65,6 +58,33 @@ footer{
 	font-size: 12px;
 	padding-top: 10px;
 
+}
+
+.portiforio-principal {
+	
+	margin: 10px auto;
+}
+
+.portiforio-imagens {
+	margin: auto 125px;
+	height: 315px;
+	width: 315px;
+	border-radius: 5%;
+	border: #fff 2px solid;
+	transition-duration: 2s;
+}
+
+.conteudo-portifotio {
+	margin: 0 125px;
+	width: auto 25px;
+	background-color: #000;
+}
+
+/********************Rodapé************************/
+footer{
+	background: #000;
+	padding: 50px 0 1px 0;
+	position: relative;
 }
 
 #espacamento {
@@ -80,14 +100,14 @@ margin: 15px auto;
 }
 
 #imagem-direita {
-	border:1px solid #fff;
+	border:2px solid #fff;
 	border-radius: 5%;
 	height:300px; 
 	width: 100%; 
 }
 
 #imagem-esquerda {
-	border:1px solid #fff;
+	border:2px solid #fff;
 	border-radius: 5%;
 	height:300px; 
 	width: 100%;
@@ -134,4 +154,8 @@ a:hover {
 /*Links actived*/
 a:active {
 	color: black
+}
+
+h4 {
+	color: #fff;
 }
